@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.bg-grid-custom {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 2px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.062) 1px, transparent 2px);
+    background-size: 32px 32px;
+  }
