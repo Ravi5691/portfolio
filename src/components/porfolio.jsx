@@ -142,7 +142,7 @@ const Portfolio = () => {
             />
           </div>
           {/* page1 */}
-          <div id="section1" className="lg:h-full h-80 w-full bg-grid-custom relative">
+          <div id="section1" className="lg:h-full h-100 w-full bg-grid-custom relative">
             <div className="relative w-full h-full bg-[#000000] shadow-inner shadow-black/70 [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
             <div className="text-white absolute top-30 font-mono tracking-wider lg:text-9xl text-4xl font-bold scale-y-110 lg:mx-20 mx-10 lg:p-10 p-0">
               <h3 className="text-xl lg:text-3xl tracking-wide">Hi all. I'm</h3>
@@ -197,8 +197,8 @@ const Portfolio = () => {
           </div>
           {/* page4 */}
           <div id="section4" className=" h-[90%] w-full font-mono ">
-            <div className="m-20">
-              <h1 className="text-5xl px-10 mb-10 mt-30 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+            <div className="lg:m-20 m-5">
+              <h1 className="lg:text-5xl text-2xl lg:px-10 px-5 lg:mb-10 mb-0 lg:mt-30 mt-10 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
                 Get in Touch
               </h1>
               <ContactForm />
