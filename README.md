@@ -1,6 +1,8 @@
 # Portfolio Project README
 
 Welcome to my portfolio project, a showcase of my frontend development skills and experience. This project is designed to demonstrate my capabilities in crafting engaging and user-centric web experiences.
+You can view the live version of this project at [https://porfolio-pi-vert.vercel.app/](https://porfolio-pi-vert.vercel.app/).
+
 
 ## Technologies Used
 
