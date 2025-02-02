@@ -95,25 +95,25 @@ const projects = [
     title: "Canvas-Scroll Trigger",
     description: "This project is focused on practicing canvas animation techniques and integrating GSAP ScrollTrigger for scroll-based animations. It combines GSAP's powerful animation capabilities for interactive user experiences.",
     // link: "https://stripe.com",
-    image: "../../public/assets/strollTrigger.png",
+    image: "/assets/strollTrigger.png",
   },
   {
     title: "Three JS ",
     description:
       "I am currently acquiring knowledge on the use of the Three.js library for 3D animation. This image demonstrates a basic 3D text animation created with Three.js.",
     // link: "https://netflix.com",
-    image: "../../public/assets/threejs.png",
+    image: "/assets/threejs.png",
   },
   {
     title: "Netflix Clone",
     description: "This project is my first attempt at creating a Netflix clone using HTML and CSS, focusing on layout design and responsive elements to replicate the platform's user interface.",
     // link: "https://google.com",
-    image: "https://example.com/image.jpg",
+    image: "/assets/netflixclone.png",
   },
   {
     title: "Weather App",
     description: "This project is created to practice API handling, using the Weather API to retrieve information and incorporating a location attribute for more personalized data retrieval.",
     // link: "https://meta.com",
-    image: "../../public/assets/weatherapp.png",
+    image: "/assets/weatherapp.png",
   },
 ];

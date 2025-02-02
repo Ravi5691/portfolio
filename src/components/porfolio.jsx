@@ -58,7 +58,7 @@ const Portfolio = () => {
           </a>
         </div>
         <div className=" bg-white border-2 border-white z-20 h-10 w-10 rounded-full fixed bottom-5 lg:right-10 right-5">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/ravinder-singh-bisht">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xml:space="preserve"
@@ -142,8 +142,8 @@ const Portfolio = () => {
             />
           </div>
           {/* page1 */}
-          <div id="section1" className="lg:h-full h-100 w-full bg-grid-custom relative">
-            <div className="relative w-full h-full bg-[#000000] shadow-inner shadow-black/70 [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
+          <div id="section1" className="lg:h-full h-70 w-full bg-grid-custom relative">
+            <div className="relative w-full h-full bg-[#000000] shadow-inner shadow-black/10 [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
             <div className="text-white absolute top-30 font-mono tracking-wider lg:text-9xl text-4xl font-bold scale-y-110 lg:mx-20 mx-10 lg:p-10 p-0">
               <h3 className="text-xl lg:text-3xl tracking-wide">Hi all. I'm</h3>
               <h1 className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
