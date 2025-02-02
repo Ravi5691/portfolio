@@ -142,7 +142,10 @@ const Portfolio = () => {
             />
           </div>
           {/* page1 */}
-          <div id="section1" className="lg:h-full h-70 w-full bg-grid-custom relative">
+          <div
+            id="section1"
+            className="lg:h-full h-70 w-full bg-grid-custom relative"
+          >
             <div className="relative w-full h-full bg-[#000000] shadow-inner shadow-black/10 [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
             <div className="text-white absolute top-30 font-mono tracking-wider lg:text-9xl text-4xl font-bold scale-y-110 lg:mx-20 mx-10 lg:p-10 p-0">
               <h3 className="text-xl lg:text-3xl tracking-wide">Hi all. I'm</h3>
@@ -166,15 +169,7 @@ const Portfolio = () => {
                   About Me
                 </h1>
                 <span className="lg:text-xl text-sm font-mono leading-1 lg:leading-10">
-                  Hi, I'm Ravinder Singh Bisht, an frontend developer with a
-                  passion for creating interactive and user-friendly web
-                  applications. I specialize in HTML, CSS, JavaScript, React,
-                  Tailwind CSS and some animation library like GSAP, LocoMotive
-                  and I'm currently diving into Three.js to enhance my skills in
-                  3D graphics and interactive visuals. I love turning ideas into
-                  beautiful, functional websites, and I'm always excited to
-                  explore new technologies that push the boundaries of what's
-                  possible on the web.
+                  I'm Ravinder Singh Bisht, a passionate frontend developer with a focus on crafting engaging and user-centric web experiences. My expertise spans <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">HTML</span>, <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">CSS</span>, <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">JavaScript</span>, <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">React</span>, and <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">Tailwind CSS</span>. I'm also skilled in animation libraries such as <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">GSAP</span> and <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">Locomotive Scroll</span>. Currently, I'm expanding my skills in <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 bg-clip-text text-transparent">Three.js</span> for 3D graphics and interactive visuals. I thrive on transforming ideas into visually appealing and functional websites, always eager to explore cutting-edge technologies that redefine the web's possibilities.
                 </span>
               </div>
               <div>
