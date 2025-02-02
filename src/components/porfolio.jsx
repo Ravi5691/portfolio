@@ -77,11 +77,11 @@ const Portfolio = () => {
         </div>
 
         {/* content */}
-        <div className="h-full w-full">
+        <div className="h-full w-full relative">
           {/* Blur bubble */}
-          <div className="fixed lg:h-[50%] h-30 w:30  lg:w-[30%] lg:top-50 top-30 lg:-right-60 right-30 z-10">
+          <div className="fixed lg:h-[50%] h-30 w:30  lg:w-[30%] lg:top-50 top-90 lg:-right-60 -right-60 z-10">
             <div
-              className=" w-60 h-60 bg-pink-500 absolute bg-blend-lighten top-60 opacity-25 right-10 rounded-full pointer-events-none sm:block hidden"
+              className=" w-60 h-60 bg-pink-500 absolute bg-blend-lighten top-60 opacity-25 right-10 rounded-full pointer-events-none"
               style={{
                 transform: "translate(-50%, -50%)",
                 filter: "blur(50px)",
@@ -89,7 +89,7 @@ const Portfolio = () => {
               }}
             />
             <div
-              className=" w-60 h-60 bg-purple-600 absolute bg-blend-lighten top-50 opacity-25 left-10 rounded-full pointer-events-none sm:block hidden"
+              className=" w-60 h-60 bg-purple-600 absolute bg-blend-lighten top-50 opacity-25 left-10 rounded-full pointer-events-none"
               style={{
                 transform: "translate(-50%, -50%)",
                 filter: "blur(50px)",
@@ -97,7 +97,7 @@ const Portfolio = () => {
               }}
             />
             <div
-              className=" w-60 h-60 bg-blue-500 bg-blend-lighten absolute top-30 right-20 opacity-25 rounded-full pointer-events-none sm:block hidden"
+              className=" w-60 h-60 bg-blue-500 bg-blend-lighten absolute top-30 right-20 opacity-25 rounded-full pointer-events-none"
               style={{
                 transform: "translate(-50%, -50%)",
                 filter: "blur(50px)",
@@ -105,9 +105,9 @@ const Portfolio = () => {
               }}
             />
           </div>
-          <div className="fixed h-[50%] w-[30%] -top-30 -left-10 z-10">
+          <div className="fixed h-[50%] lg:w-[30%] w-[50%] lg:-top-30 -top-30 lg:-left-10 left-5 z-10">
             <div
-              className=" w-60 h-60 bg-pink-500 absolute bg-blend-lighten top-60 opacity-25 right-10 rounded-full pointer-events-none sm:block hidden"
+              className=" w-60 h-60 bg-pink-500 absolute bg-blend-lighten top-60 opacity-25 right-10 rounded-full pointer-events-none "
               style={{
                 transform: "translate(-50%, -50%)",
                 filter: "blur(50px)",
@@ -115,7 +115,7 @@ const Portfolio = () => {
               }}
             />
             <div
-              className=" w-60 h-60 bg-purple-600 absolute bg-blend-lighten top-50 opacity-25 left-10 rounded-full pointer-events-none sm:block hidden"
+              className=" w-60 h-60 bg-purple-600 absolute bg-blend-lighten top-50 opacity-25 left-10 rounded-full pointer-events-none"
               style={{
                 transform: "translate(-50%, -50%)",
                 filter: "blur(50px)",
@@ -123,7 +123,7 @@ const Portfolio = () => {
               }}
             />
             <div
-              className=" w-60 h-60 bg-blue-500 bg-blend-lighten absolute top-30 right-20 opacity-25 rounded-full pointer-events-none sm:block hidden"
+              className=" w-60 h-60 bg-blue-500 bg-blend-lighten absolute top-30 right-20 opacity-25 rounded-full pointer-events-none"
               style={{
                 transform: "translate(-50%, -50%)",
                 filter: "blur(50px)",
