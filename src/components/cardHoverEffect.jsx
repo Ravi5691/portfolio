@@ -15,8 +15,8 @@ export default function CardHoverEffect() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="w-screen">
-    <div className="max-w-6xl ml-22 mx-20 px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+    <div className="w-screen h-full">
+    <div className="lg:max-w-6xl max-w-4xl lg:ml-22 ml-0 lg:mx-20 mx-5 lg:px-8 px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 gap-5">
       {projects.map((item, idx) => (
         <a
           href={item.link}
@@ -55,11 +55,11 @@ function Card({ className, children }) {
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/20 group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full lg:p-4 p-2 overflow-hidden bg-black border border-transparent dark:border-white/20 group-hover:border-slate-700 relative z-10",
         className
       )}
     >
-      <div className="relative z-50 p-4">{children}</div>
+      <div className="relative lg:z-10 z-10 p-4">{children}</div>
     </div>
   );
 }
@@ -72,7 +72,7 @@ function CardTitle({ className, children }) {
 // Card Description Component
 function CardDescription({ className, children }) {
   return (
-    <p className={cn("mt-4 pb-2 text-zinc-400 tracking-wide leading-relaxed text-sm", className)}>
+    <p className={cn("lg:mt-4 mt-0 pb-2 text-zinc-400 lg:tracking-wide tracking-normal lg:leading-relaxed leading-1 lg:text-sm text-[10px] ", className)}>
       {children}
     </p>
   );

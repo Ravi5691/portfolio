@@ -17,7 +17,7 @@ const Portfolio = () => {
     <div className="text-white bg-black h-screen w-screen overflow-x-hidden">
       <div className="w-full h-full flex justify-center relative">
         {/* nav */}
-        <div className="fixed tracking-widest flex gap-10 p-5 mt-5 rounded-3xl backdrop-blur-3xl bg-[rgba(0,0,0,0.43)]  right-10 z-30 font-mono">
+        <div className="fixed  tracking-wide lg:tracking-widest flex gap-5 lg:gap-10 text-sm lg:text-lg  p-4 lg:p-5 mt-2 lg:mt-5 lg:rounded-3xl rounded-xl backdrop-blur-3xl bg-[rgba(0,0,0,0.43)]  lg:right-10 z-30 font-mono">
           <button
             onClick={() => handleScroll("section1")}
             className="cursor-pointer text-gray-400 hover:text-white"
@@ -45,7 +45,7 @@ const Portfolio = () => {
         </div>
 
         {/* link */}
-        <div className=" bg-white border-2 border-white z-20 h-10 w-10 rounded-full fixed bottom-18 right-10">
+        <div className=" bg-white border-2 border-white z-20 h-10 w-10 rounded-full fixed bottom-18 lg:right-10 right-5">
           <a href="https://github.com/ravi5691">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const Portfolio = () => {
             </svg>
           </a>
         </div>
-        <div className=" bg-white border-2 border-white z-20 h-10 w-10 rounded-full fixed bottom-5 right-10">
+        <div className=" bg-white border-2 border-white z-20 h-10 w-10 rounded-full fixed bottom-5 lg:right-10 right-5">
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const Portfolio = () => {
         {/* content */}
         <div className="h-full w-full">
           {/* Blur bubble */}
-          <div className="fixed h-[50%] w-[30%] top-50 -right-60 z-10">
+          <div className="fixed lg:h-[50%] h-30 w:30  lg:w-[30%] lg:top-50 top-30 lg:-right-60 right-30 z-10">
             <div
               className=" w-60 h-60 bg-pink-500 absolute bg-blend-lighten top-60 opacity-25 right-10 rounded-full pointer-events-none sm:block hidden"
               style={{
@@ -142,14 +142,14 @@ const Portfolio = () => {
             />
           </div>
           {/* page1 */}
-          <div id="section1" className="h-full w-full bg-grid-custom relative">
+          <div id="section1" className="lg:h-full h-80 w-full bg-grid-custom relative">
             <div className="relative w-full h-full bg-[#000000] shadow-inner shadow-black/70 [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
-            <div className="text-white absolute top-30 font-mono tracking-wider text-9xl font-bold left-10 scale-y-110 ml-10 p-10">
-              <h3 className="text-3xl tracking-wide">Hi all. I'm</h3>
+            <div className="text-white absolute top-30 font-mono tracking-wider lg:text-9xl text-4xl font-bold scale-y-110 lg:mx-20 mx-10 lg:p-10 p-0">
+              <h3 className="text-xl lg:text-3xl tracking-wide">Hi all. I'm</h3>
               <h1 className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
                 RAVINDER <br /> SINGH BISHT
               </h1>
-              <h3 className="text-3xl tracking-wide">
+              <h3 className="text-xl lg:text-3xl tracking-wide">
                 an Frontend Developer from{" "}
                 <span className="bg-gradient-to-r from-orange-500 via-white to-green-500 bg-clip-text text-transparent">
                   INDIA
@@ -160,12 +160,12 @@ const Portfolio = () => {
           </div>
           {/* page2 */}
           <div id="section2" className=" w-full">
-            <div className="flex m-10 my-20  place-items-center">
-              <div className="w-[60%] p-20 tracking-wider">
-                <h1 className="text-5xl font-mono pb-10 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent ">
+            <div className="flex lg:flex-row flex-col lg:m-10 mx-2 my-10 lg:my-20  place-items-center">
+              <div className="lg:w-[60%] w-full lg:p-20 p-7 tracking-wider">
+                <h1 className="lg:text-5xl text-2xl font-mono pb-10 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent ">
                   About Me
                 </h1>
-                <span className="text-xl font-mono leading-10">
+                <span className="lg:text-xl text-sm font-mono leading-1 lg:leading-10">
                   Hi, I'm Ravinder Singh Bisht, an frontend developer with a
                   passion for creating interactive and user-friendly web
                   applications. I specialize in HTML, CSS, JavaScript, React,
@@ -181,24 +181,24 @@ const Portfolio = () => {
                 <img
                   src="https://pbs.twimg.com/profile_images/1884514293577834498/wyMlnQVn_400x400.jpg"
                   alt="profile_pic"
-                  className="rounded-4xl ml-15 mt-8 border-2 z-20 contrast-100 brightness-100 saturate-100 relative"
+                  className="rounded-4xl lg:ml-15 lg:mt-13 m-5 lg:h-auto lg:w-auto h-60 w-60 border-2 z-20 contrast-100 brightness-100 saturate-100 relative"
                 />
               </div>
             </div>
           </div>
           {/* page3 */}
-          <div id="section3" className="h-full w-full font-mono ">
-            <h1 className="text-5xl m-10 mt-20 pl-20 pb-10 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+          <div id="section3" className=" w-full font-mono ">
+            <h1 className="lg:text-5xl text-2xl lg:m-20 m-5 lg:px-10 px-5 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
               Projects
             </h1>
-            <div className=" px-20">
+            <div className=" lg:px-20 px-3">
               <CardHoverEffect />
             </div>
           </div>
           {/* page4 */}
           <div id="section4" className=" h-[90%] w-full font-mono ">
-            <div className="ml-20 mt-120">
-              <h1 className="text-5xl pl-10 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+            <div className="m-20">
+              <h1 className="text-5xl px-10 mb-10 mt-30 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
                 Get in Touch
               </h1>
               <ContactForm />
