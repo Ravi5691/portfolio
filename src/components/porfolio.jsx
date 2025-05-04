@@ -174,7 +174,7 @@ const Portfolio = () => {
               </div>
               <div>
                 <img
-                  src="https://pbs.twimg.com/profile_images/1884514293577834498/wyMlnQVn_400x400.jpg"
+                  src="/assets/user.jpg"
                   alt="profile_pic"
                   className="rounded-4xl lg:ml-15 lg:mt-13 m-5 lg:h-auto lg:w-auto h-60 w-60 border-2 z-20 contrast-100 brightness-100 saturate-100 relative"
                 />
